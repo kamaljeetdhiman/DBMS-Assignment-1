@@ -251,10 +251,38 @@ class MongoAdapter(BaseDatabaseAdapter):
     def connect(self):
         if not MONGO_AVAILABLE:
             raise RuntimeError("pymongo is not installed.")
-        uri = f"mongodb://{self.user}:{self.password}@{self.host}:{self.port}/{self.dbname}?authSource=admin"
-        self.client = pymongo.MongoClient(uri, serverSelectionTimeoutMS=5000)
-        self.db = self.client[self.dbname]
-        self.collection = self.db["orders"]
+        
+        candidates = [
+            # 1. Admin authSource (standard Docker compose root initialization)
+            (f"mongodb://{self.user}:{self.password}@{self.host}:{self.port}/{self.dbname}?authSource=admin", "admin"),
+            # 2. Database authSource
+            (f"mongodb://{self.user}:{self.password}@{self.host}:{self.port}/{self.dbname}?authSource={self.dbname}", self.dbname),
+            # 3. Unauthenticated (local MongoDB instance running without auth)
+            (f"mongodb://{self.host}:{self.port}/{self.dbname}", None)
+        ]
+        
+        last_error = None
+        for uri, auth_source in candidates:
+            try:
+                client = pymongo.MongoClient(uri, serverSelectionTimeoutMS=2000)
+                # Force an immediate ping to verify authentication
+                client[self.dbname].command("ping")
+                self.client = client
+                self.db = self.client[self.dbname]
+                self.collection = self.db["orders"]
+                return
+            except Exception as e:
+                last_error = e
+                continue
+        
+        raise RuntimeError(
+            f"Failed to authenticate with MongoDB: {last_error}\n\n"
+            "Quick Fix for Docker Compose:\n"
+            "  The MongoDB volume was initialized before credentials were set.\n"
+            "  Run the following command to reset the volume and create the user:\n"
+            "    docker-compose down -v\n"
+            "    docker-compose up -d\n"
+        )
 
     def teardown_and_init(self):
         self.collection.drop()

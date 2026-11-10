@@ -1,42 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" style="background-color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;">
 <text x="400.0" y="32" text-anchor="middle" font-size="18" font-weight="bold" fill="#111827">Throughput Across Operations (Scale = 100,000)</text>
-<line x1="90" y1="336.08165925107204" x2="760" y2="336.08165925107204" stroke="#e5e7eb" stroke-dasharray="4,4"/>
-<text x="78" y="340.08165925107204" text-anchor="end" font-size="11" fill="#6b7280">1,000</text>
-<line x1="90" y1="226.11101011953002" x2="760" y2="226.11101011953002" stroke="#e5e7eb" stroke-dasharray="4,4"/>
-<text x="78" y="230.11101011953002" text-anchor="end" font-size="11" fill="#6b7280">10,000</text>
-<line x1="90" y1="116.140360987988" x2="760" y2="116.140360987988" stroke="#e5e7eb" stroke-dasharray="4,4"/>
-<text x="78" y="120.140360987988" text-anchor="end" font-size="11" fill="#6b7280">100,000</text>
+<line x1="90" y1="370.1230983196756" x2="760" y2="370.1230983196756" stroke="#e5e7eb" stroke-dasharray="4,4"/>
+<text x="78" y="374.1230983196756" text-anchor="end" font-size="11" fill="#6b7280">10^1</text>
+<line x1="90" y1="295.63395906452286" x2="760" y2="295.63395906452286" stroke="#e5e7eb" stroke-dasharray="4,4"/>
+<text x="78" y="299.63395906452286" text-anchor="end" font-size="11" fill="#6b7280">10^2</text>
+<line x1="90" y1="221.1448198093701" x2="760" y2="221.1448198093701" stroke="#e5e7eb" stroke-dasharray="4,4"/>
+<text x="78" y="225.1448198093701" text-anchor="end" font-size="11" fill="#6b7280">1,000</text>
+<line x1="90" y1="146.65568055421733" x2="760" y2="146.65568055421733" stroke="#e5e7eb" stroke-dasharray="4,4"/>
+<text x="78" y="150.65568055421733" text-anchor="end" font-size="11" fill="#6b7280">10,000</text>
+<line x1="90" y1="72.16654129906459" x2="760" y2="72.16654129906459" stroke="#e5e7eb" stroke-dasharray="4,4"/>
+<text x="78" y="76.16654129906459" text-anchor="end" font-size="11" fill="#6b7280">100,000</text>
 <line x1="90" y1="60" x2="90" y2="420" stroke="#374151" stroke-width="1.5"/>
 <line x1="90" y1="420" x2="760" y2="420" stroke="#374151" stroke-width="1.5"/>
 <text transform="rotate(-90)" x="-240.0" y="24" text-anchor="middle" font-size="13" font-weight="600" fill="#374151">Throughput (ops/sec, Log Scale)</text>
 <text x="173.75" y="445" text-anchor="middle" font-size="12" font-weight="600" fill="#1f2937">Batch Insert</text>
-<rect x="118.475" y="182.1475967088127" width="33.85" height="237.8524032911873" fill="#2b5c8f" rx="2"/>
-<text x="135.4" y="178.1475967088127" text-anchor="middle" font-size="9" fill="#374151">25,106</text>
-<rect x="155.325" y="145.31685839981185" width="33.85" height="274.68314160018815" fill="#13aa52" rx="2"/>
-<text x="172.25" y="141.31685839981185" text-anchor="middle" font-size="9" fill="#374151">54,286</text>
-<rect x="192.175" y="93.1044640312333" width="33.85" height="326.8955359687667" fill="#d82c20" rx="2"/>
-<text x="209.10000000000002" y="89.1044640312333" text-anchor="middle" font-size="9" fill="#374151">161,984</text>
+<rect x="118.475" y="197.32387771866976" width="33.85" height="222.67612228133024" fill="#2b5c8f" rx="2"/>
+<text x="135.4" y="193.32387771866976" text-anchor="middle" font-size="9" fill="#374151">2,088</text>
+<rect x="155.325" y="82.42346526699237" width="33.85" height="337.57653473300763" fill="#13aa52" rx="2"/>
+<text x="172.25" y="78.42346526699237" text-anchor="middle" font-size="9" fill="#374151">72,829</text>
+<rect x="192.175" y="129.78265051366157" width="33.85" height="290.21734948633843" fill="#d82c20" rx="2"/>
+<text x="209.10000000000002" y="125.78265051366157" text-anchor="middle" font-size="9" fill="#374151">16,847</text>
 <text x="341.25" y="445" text-anchor="middle" font-size="12" font-weight="600" fill="#1f2937">Point Lookup</text>
-<rect x="285.975" y="316.08451605360824" width="33.85" height="103.91548394639173" fill="#2b5c8f" rx="2"/>
-<text x="302.90000000000003" y="312.08451605360824" text-anchor="middle" font-size="9" fill="#374151">1,520</text>
-<rect x="322.82500000000005" y="298.7692348140164" width="33.85" height="121.2307651859836" fill="#13aa52" rx="2"/>
-<text x="339.75000000000006" y="294.7692348140164" text-anchor="middle" font-size="9" fill="#374151">2,184</text>
-<rect x="359.675" y="215.8434911710744" width="33.85" height="204.1565088289256" fill="#d82c20" rx="2"/>
-<text x="376.6" y="211.8434911710744" text-anchor="middle" font-size="9" fill="#374151">12,398</text>
+<rect x="285.975" y="204.13988736535782" width="33.85" height="215.86011263464218" fill="#2b5c8f" rx="2"/>
+<text x="302.90000000000003" y="200.13988736535782" text-anchor="middle" font-size="9" fill="#374151">1,692</text>
+<rect x="322.82500000000005" y="186.18065841580665" width="33.85" height="233.81934158419335" fill="#13aa52" rx="2"/>
+<text x="339.75000000000006" y="182.18065841580665" text-anchor="middle" font-size="9" fill="#374151">2,947</text>
+<rect x="359.675" y="196.59462108083105" width="33.85" height="223.40537891916895" fill="#d82c20" rx="2"/>
+<text x="376.6" y="192.59462108083105" text-anchor="middle" font-size="9" fill="#374151">2,136</text>
 <text x="508.75" y="445" text-anchor="middle" font-size="12" font-weight="600" fill="#1f2937">Filtered Scan</text>
-<rect x="453.475" y="386.8955359687667" width="33.85" height="33.10446403123329" fill="#2b5c8f" rx="2"/>
-<text x="470.40000000000003" y="382.8955359687667" text-anchor="middle" font-size="9" fill="#374151">345</text>
-<rect x="490.32500000000005" y="364.00612600395607" width="33.85" height="55.993873996043945" fill="#13aa52" rx="2"/>
-<text x="507.25000000000006" y="360.00612600395607" text-anchor="middle" font-size="9" fill="#374151">557</text>
-<rect x="527.1750000000001" y="322.9405262268322" width="33.85" height="97.05947377316778" fill="#d82c20" rx="2"/>
-<text x="544.1" y="318.9405262268322" text-anchor="middle" font-size="9" fill="#374151">1,317</text>
+<rect x="453.475" y="276.1054235125555" width="33.85" height="143.89457648744454" fill="#2b5c8f" rx="2"/>
+<text x="470.40000000000003" y="272.1054235125555" text-anchor="middle" font-size="9" fill="#374151">183</text>
+<rect x="490.32500000000005" y="222.13685277434956" width="33.85" height="197.86314722565044" fill="#13aa52" rx="2"/>
+<text x="507.25000000000006" y="218.13685277434956" text-anchor="middle" font-size="9" fill="#374151">970</text>
+<rect x="527.1750000000001" y="397.5765347330077" width="33.85" height="22.423465266992324" fill="#d82c20" rx="2"/>
+<text x="544.1" y="393.5765347330077" text-anchor="middle" font-size="9" fill="#374151">4.3</text>
 <text x="676.25" y="445" text-anchor="middle" font-size="12" font-weight="600" fill="#1f2937">Field Update</text>
-<rect x="620.975" y="345.86812572954057" width="33.85" height="74.13187427045946" fill="#2b5c8f" rx="2"/>
-<text x="637.9" y="341.86812572954057" text-anchor="middle" font-size="9" fill="#374151">815</text>
-<rect x="657.825" y="324.01973282489655" width="33.85" height="95.98026717510344" fill="#13aa52" rx="2"/>
-<text x="674.75" y="320.01973282489655" text-anchor="middle" font-size="9" fill="#374151">1,287</text>
-<rect x="694.6750000000001" y="243.86389945191286" width="33.85" height="176.13610054808714" fill="#d82c20" rx="2"/>
-<text x="711.6" y="239.86389945191286" text-anchor="middle" font-size="9" fill="#374151">6,896</text>
+<rect x="620.975" y="203.2094131615135" width="33.85" height="216.7905868384865" fill="#2b5c8f" rx="2"/>
+<text x="637.9" y="199.2094131615135" text-anchor="middle" font-size="9" fill="#374151">1,741</text>
+<rect x="657.825" y="192.08297288073132" width="33.85" height="227.91702711926868" fill="#13aa52" rx="2"/>
+<text x="674.75" y="188.08297288073132" text-anchor="middle" font-size="9" fill="#374151">2,456</text>
+<rect x="694.6750000000001" y="220.4633127511317" width="33.85" height="199.5366872488683" fill="#d82c20" rx="2"/>
+<text x="711.6" y="216.4633127511317" text-anchor="middle" font-size="9" fill="#374151">1,021</text>
 <rect x="130" y="475" width="14" height="14" fill="#2b5c8f" rx="2"/>
 <text x="150" y="486" font-size="11" font-weight="500" fill="#374151">PostgreSQL (JSONB)</text>
 <rect x="350" y="475" width="14" height="14" fill="#13aa52" rx="2"/>

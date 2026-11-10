@@ -3,15 +3,15 @@
 <line x1="90" y1="420.0" x2="760" y2="420.0" stroke="#e5e7eb" stroke-dasharray="4,4"/>
 <text x="78" y="424.0" text-anchor="end" font-size="11" fill="#6b7280">0</text>
 <line x1="90" y1="348.0" x2="760" y2="348.0" stroke="#e5e7eb" stroke-dasharray="4,4"/>
-<text x="78" y="352.0" text-anchor="end" font-size="11" fill="#6b7280">38,959</text>
+<text x="78" y="352.0" text-anchor="end" font-size="11" fill="#6b7280">20,560</text>
 <line x1="90" y1="276.0" x2="760" y2="276.0" stroke="#e5e7eb" stroke-dasharray="4,4"/>
-<text x="78" y="280.0" text-anchor="end" font-size="11" fill="#6b7280">77,917</text>
+<text x="78" y="280.0" text-anchor="end" font-size="11" fill="#6b7280">41,120</text>
 <line x1="90" y1="204.0" x2="760" y2="204.0" stroke="#e5e7eb" stroke-dasharray="4,4"/>
-<text x="78" y="208.0" text-anchor="end" font-size="11" fill="#6b7280">116,876</text>
+<text x="78" y="208.0" text-anchor="end" font-size="11" fill="#6b7280">61,680</text>
 <line x1="90" y1="132.0" x2="760" y2="132.0" stroke="#e5e7eb" stroke-dasharray="4,4"/>
-<text x="78" y="136.0" text-anchor="end" font-size="11" fill="#6b7280">155,835</text>
+<text x="78" y="136.0" text-anchor="end" font-size="11" fill="#6b7280">82,240</text>
 <line x1="90" y1="60.0" x2="760" y2="60.0" stroke="#e5e7eb" stroke-dasharray="4,4"/>
-<text x="78" y="64.0" text-anchor="end" font-size="11" fill="#6b7280">194,793</text>
+<text x="78" y="64.0" text-anchor="end" font-size="11" fill="#6b7280">102,801</text>
 <line x1="90" y1="60" x2="90" y2="420" stroke="#374151" stroke-width="1.5"/>
 <line x1="90" y1="420" x2="760" y2="420" stroke="#374151" stroke-width="1.5"/>
 <text transform="rotate(-90)" x="-240.0" y="24" text-anchor="middle" font-size="13" font-weight="600" fill="#374151">Throughput (records/sec)</text>
@@ -19,27 +19,27 @@
 <text x="425.0" y="445" text-anchor="middle" font-size="12" font-weight="600" fill="#1f2937">50,000</text>
 <text x="730.0" y="445" text-anchor="middle" font-size="12" font-weight="600" fill="#1f2937">100,000</text>
 <text x="425.0" y="468" text-anchor="middle" font-size="12" fill="#4b5563">Dataset Scale (Records)</text>
-<path d="M 120.0 372.9 L 425.0 373.0 L 730.0 373.6" fill="none" stroke="#2b5c8f" stroke-width="3"/>
-<circle cx="120.0" cy="372.9" r="5" fill="#2b5c8f" stroke="#ffffff" stroke-width="2"/>
-<text x="120.0" y="362.9" text-anchor="middle" font-size="10" font-weight="600" fill="#2b5c8f">25,471</text>
-<circle cx="425.0" cy="373.0" r="5" fill="#2b5c8f" stroke="#ffffff" stroke-width="2"/>
-<text x="425.0" y="363.0" text-anchor="middle" font-size="10" font-weight="600" fill="#2b5c8f">25,422</text>
-<circle cx="730.0" cy="373.6" r="5" fill="#2b5c8f" stroke="#ffffff" stroke-width="2"/>
-<text x="730.0" y="363.6" text-anchor="middle" font-size="10" font-weight="600" fill="#2b5c8f">25,106</text>
-<path d="M 120.0 320.1 L 425.0 321.1 L 730.0 319.7" fill="none" stroke="#13aa52" stroke-width="3"/>
-<circle cx="120.0" cy="320.1" r="5" fill="#13aa52" stroke="#ffffff" stroke-width="2"/>
-<text x="120.0" y="310.1" text-anchor="middle" font-size="10" font-weight="600" fill="#13aa52">54,042</text>
-<circle cx="425.0" cy="321.1" r="5" fill="#13aa52" stroke="#ffffff" stroke-width="2"/>
-<text x="425.0" y="311.1" text-anchor="middle" font-size="10" font-weight="600" fill="#13aa52">53,503</text>
-<circle cx="730.0" cy="319.7" r="5" fill="#13aa52" stroke="#ffffff" stroke-width="2"/>
-<text x="730.0" y="309.7" text-anchor="middle" font-size="10" font-weight="600" fill="#13aa52">54,286</text>
-<path d="M 120.0 107.0 L 425.0 116.6 L 730.0 120.6" fill="none" stroke="#d82c20" stroke-width="3"/>
-<circle cx="120.0" cy="107.0" r="5" fill="#d82c20" stroke="#ffffff" stroke-width="2"/>
-<text x="120.0" y="97.0" text-anchor="middle" font-size="10" font-weight="600" fill="#d82c20">169,386</text>
-<circle cx="425.0" cy="116.6" r="5" fill="#d82c20" stroke="#ffffff" stroke-width="2"/>
-<text x="425.0" y="106.6" text-anchor="middle" font-size="10" font-weight="600" fill="#d82c20">164,189</text>
-<circle cx="730.0" cy="120.6" r="5" fill="#d82c20" stroke="#ffffff" stroke-width="2"/>
-<text x="730.0" y="110.6" text-anchor="middle" font-size="10" font-weight="600" fill="#d82c20">161,984</text>
+<path d="M 120.0 412.6 L 425.0 412.7 L 730.0 412.7" fill="none" stroke="#2b5c8f" stroke-width="3"/>
+<circle cx="120.0" cy="412.6" r="5" fill="#2b5c8f" stroke="#ffffff" stroke-width="2"/>
+<text x="120.0" y="402.6" text-anchor="middle" font-size="10" font-weight="600" fill="#2b5c8f">2,107</text>
+<circle cx="425.0" cy="412.7" r="5" fill="#2b5c8f" stroke="#ffffff" stroke-width="2"/>
+<text x="425.0" y="402.7" text-anchor="middle" font-size="10" font-weight="600" fill="#2b5c8f">2,092</text>
+<circle cx="730.0" cy="412.7" r="5" fill="#2b5c8f" stroke="#ffffff" stroke-width="2"/>
+<text x="730.0" y="402.7" text-anchor="middle" font-size="10" font-weight="600" fill="#2b5c8f">2,088</text>
+<path d="M 120.0 190.4 L 425.0 107.0 L 730.0 165.0" fill="none" stroke="#13aa52" stroke-width="3"/>
+<circle cx="120.0" cy="190.4" r="5" fill="#13aa52" stroke="#ffffff" stroke-width="2"/>
+<text x="120.0" y="180.4" text-anchor="middle" font-size="10" font-weight="600" fill="#13aa52">65,561</text>
+<circle cx="425.0" cy="107.0" r="5" fill="#13aa52" stroke="#ffffff" stroke-width="2"/>
+<text x="425.0" y="97.0" text-anchor="middle" font-size="10" font-weight="600" fill="#13aa52">89,392</text>
+<circle cx="730.0" cy="165.0" r="5" fill="#13aa52" stroke="#ffffff" stroke-width="2"/>
+<text x="730.0" y="155.0" text-anchor="middle" font-size="10" font-weight="600" fill="#13aa52">72,829</text>
+<path d="M 120.0 355.6 L 425.0 363.8 L 730.0 361.0" fill="none" stroke="#d82c20" stroke-width="3"/>
+<circle cx="120.0" cy="355.6" r="5" fill="#d82c20" stroke="#ffffff" stroke-width="2"/>
+<text x="120.0" y="345.6" text-anchor="middle" font-size="10" font-weight="600" fill="#d82c20">18,378</text>
+<circle cx="425.0" cy="363.8" r="5" fill="#d82c20" stroke="#ffffff" stroke-width="2"/>
+<text x="425.0" y="353.8" text-anchor="middle" font-size="10" font-weight="600" fill="#d82c20">16,060</text>
+<circle cx="730.0" cy="361.0" r="5" fill="#d82c20" stroke="#ffffff" stroke-width="2"/>
+<text x="730.0" y="351.0" text-anchor="middle" font-size="10" font-weight="600" fill="#d82c20">16,847</text>
 <rect x="130" y="485" width="14" height="14" fill="#2b5c8f" rx="2"/>
 <text x="150" y="496" font-size="11" font-weight="500" fill="#374151">PostgreSQL (JSONB)</text>
 <rect x="350" y="485" width="14" height="14" fill="#13aa52" rx="2"/>
