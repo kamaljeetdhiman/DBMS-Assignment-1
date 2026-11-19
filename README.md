@@ -74,11 +74,25 @@ We systematically investigate the performance, storage architecture, and theoret
 
 ## 🚀 Quick Start Guide
 
-### Prerequisites
-- Python 3.10 or higher
-- Optional: Docker and Docker Compose (for running live database instances)
+### Option A: Interactive Web Dashboard (Recommended for Demonstrations & Viva)
+A full-featured graphical interface built on the Python standard library (**zero pip dependencies required**):
+1. **Windows 1-Click Launch**:
+   Double-click `run_app.bat`
+2. **Or via Terminal**:
+   ```bash
+   python app.py
+   ```
+3. Open **`http://localhost:8080`** in any web browser.
+   - **Interactive Live Benchmark Runner**: Configure scales (10k, 50k, 100k), query samples, and trigger live executions with real-time logs and progress bar.
+   - **Dynamic Chart.js Analytics**: Switch between log throughput, tail latency percentiles ($p_{50}, p_{95}, p_{99}$), and multi-scale scalability curves.
+   - **Cross-Engine Query & Storage Inspector**: Side-by-side SQL JSONB vs. MongoDB MQL vs. Redis CLI and deep storage engine breakdown (Slotted Page MVCC vs. WiredTiger Cache vs. In-Memory SDS).
+   - **Architectural Decision Guide**: Interactive 4-step wizard recommending optimal database engines based on CAP/PACELC trade-offs.
+   - **Systematic Literature Review Matrix**: Search and filter 16 peer-reviewed papers (2010–2026).
+   - **Export Tools**: Direct 1-click download of the research paper PDF and benchmark CSV.
 
-### Option A: Running with Live Docker Containers
+---
+
+### Option B: Running with Live Docker Containers
 1. **Launch the Database Containers**:
    ```bash
    docker-compose up -d
@@ -87,12 +101,14 @@ We systematically investigate the performance, storage architecture, and theoret
    ```bash
    pip install -r requirements.txt
    ```
-3. **Execute the Benchmark**:
+3. **Execute the Benchmark via CLI**:
    ```bash
    python benchmark.py --scales 10000 50000 100000 --samples 500
    ```
 
-### Option B: Calibrated Empirical Simulation Mode (Zero External Dependencies)
+---
+
+### Option C: Calibrated Empirical Simulation Mode (CLI, Zero External Dependencies)
 If running in an offline environment, lightweight laptop, or university grading shell without Docker:
 ```bash
 python benchmark.py --scales 10000 50000 100000 --samples 250 --mock
@@ -135,6 +151,8 @@ Outputs generated in `./plots/`:
 ## 📁 Repository Structure
 ```
 .
+├── app.py                       # Self-contained web interface & API (zero pip dependencies)
+├── run_app.bat                  # 1-click Windows launcher for web dashboard
 ├── benchmark.py                 # Modular benchmarking driver with database adapters
 ├── generate_plots_svg.py        # Vector SVG plotting generator (zero external dependencies)
 ├── benchmark_results.csv        # Raw tabular benchmarking empirical results
@@ -147,7 +165,7 @@ Outputs generated in `./plots/`:
 │   └── ingestion_scalability.svg
 ├── IEEE_G13_Research_Paper.tex  # Complete IEEE conference research paper in LaTeX (IEEEtran)
 ├── G13_DBMS_Research_Paper.pdf  # Final compiled 6-page IEEE conference research paper PDF
-├── presentation_and_viva.md     # 10-slide deck outline and 10 viva exam questions & answers
+├── presentation.pptx            # 10-slide PowerPoint presentation for project viva
 └── README.md                    # Project documentation & execution guide
 ```
 
